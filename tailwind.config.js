@@ -31,9 +31,5 @@ module.exports = {
     backgroundColor: ['responsive', 'hover', 'focus'],
     fill: [],
   },
-  plugins: [
-    require('tailwindcss-transforms'),
-    require('tailwindcss-transitions'),
-    require('tailwindcss-border-gradients'),
-  ]
+  plugins: []
 }
