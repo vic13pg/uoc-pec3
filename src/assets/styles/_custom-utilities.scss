@@ -1,0 +1,13 @@
+.h-80 {
+	height: 80vh;
+}
+
+@responsive {
+	.h-70 {
+		height: 70vh;
+	}
+
+	.bg-black-opacity-50 {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}

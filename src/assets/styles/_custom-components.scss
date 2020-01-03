@@ -1,0 +1,33 @@
+.miembro {
+	@apply px-8;
+
+	&__nombre {
+		@apply uppercase font-bold mb-0 tracking-wide;
+	}
+
+	&__img {
+		@apply mx-auto my-8 rounded-full shadow-2xl;
+	}
+
+	&__ocupacion {
+		@apply uppercase text-sm;
+	}
+}
+
+.menu-link {
+	@apply text-white;
+
+	&:hover {
+		@apply opacity-75;
+	}
+}
+
+.contenedor {
+	max-width: 1140px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.edicion-disco {
+	@apply normal-case italic text-secondary text-sm font-normal;
+}

@@ -1,56 +1,11 @@
-.bg--miembros {
-  background-image: url(/assets/images/FONS_WEB_1.jpg);
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-.img-card {
-  @apply mx-auto my-8 rounded-full shadow-2xl;
-}
-
-.menu-link {
-  @apply text-white;
-}
-
-.menu-link:hover {
-  @apply opacity-75;
-}
-
+//<---Toggle Navbar --->
 #menu-toggle:checked + #menu {
-  display: block;
+	display: block;
 }
 
-.contenedor {
-  max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.title {
-  @apply uppercase font-bold;
-}
-
-.ocupacion-miembro {
-  @apply uppercase text-sm;
-}
-
-.edicion-disco {
-  @apply normal-case italic text-secondary text-sm font-normal;
-}
-
-.h-80 {
-  height: 80vh;
-}
-
-@responsive {
-  .h-70 {
-    height: 70vh;
-}
-
-  .bg-black-opacity-50 {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+//<---Página Miembros --->
+.bg--miembros {
+	background-image: url(/assets/images/FONS_WEB_1.jpg);
+	background-position-y: bottom;
+	background-repeat: no-repeat;
 }

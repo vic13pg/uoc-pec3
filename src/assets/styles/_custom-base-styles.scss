@@ -1,0 +1,15 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+	@apply uppercase font-bold;
+}
+
+h1 {
+	@apply text-3xl tracking-widest;
+}
+
+p {
+	margin-bottom: 1rem;
+}

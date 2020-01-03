@@ -1,11 +1,22 @@
 /**
  * Import variables
  */
+
+/* <-------Base Styles-------> */
 @tailwind base;
+
+@import "./custom-base-styles";
+
+/* <-------Componentes-------> */
+
 @tailwind components;
+
+@import "./custom-components";
+
+/* <-------Utilidades-------> */
 @tailwind utilities;
 
-@import "mixins";
+@import "./custom-utilities";
 
 /**
  * Import npm dependencies

@@ -240,7 +240,7 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
-      body: ['Lato'],
+      body: ['Lato', 'Roboto','"Helvetica Neue"','Arial','"Noto Sans"','sans-serif'],
     },
     fontSize: {
       xs: '0.75rem',
