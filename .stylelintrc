@@ -27,7 +27,7 @@
       "utilitySelectors": "^\\.util-[a-z]+$"
     },
       "at-rule-no-unknown":[null,{
-      "ignoreAtRules": [
+      ignoreAtRules: [
         "tailwind",
         "apply",
         "responsive",
